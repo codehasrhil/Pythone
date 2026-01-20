@@ -31,9 +31,20 @@ print(f"Your gpa is {gpa}")
 print(f"You run {distance} km away")
 
 
-# boolean = A True or false value
+# boolean = A True or False value
 human = True
 isStudent = False
+for_Sale = True
 
 print(f"are you a human? {human}")
 print(f'is i am student? {isStudent}')
+
+if isStudent:
+    print("I am the student")
+else:
+    print("i am not the  studnet")
+
+if for_Sale:
+    print("That item is for sale")
+else:
+    print("That item is for sale")
