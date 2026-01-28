@@ -21,3 +21,16 @@ print(name.upper())
 
 print(name.lower())
 
+"""Strip = use to remove extra space"""
+
+names = " hArshil "
+
+print(names.strip())
+
+"""replace = use to replace the part of string"""
+
+text = "I love BMW"
+
+print(text.replace("BMW","Car"))
+
+""""""
