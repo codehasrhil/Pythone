@@ -60,3 +60,50 @@ print(round)
 ab = abs(-10)
 print(ab)
 
+#Power and Square Root
+
+import math
+
+"square root"
+
+mat = math.sqrt(16);
+print(mat)
+
+"Power"
+
+pow = math.pow(2,3); # work like 2*2=4*2=8
+print(pow) 
+
+
+"Min & Max"
+
+find = min(3,5,1)
+maxfind = max(32,34,35)
+
+print(f"smallest one {find} ,  biggest one {maxfind}")
+
+
+"Random number - genrate random number"
+
+import random
+
+ran = random.randint(1,6)  # it will genrate number between 1 to 6
+
+print(ran)
+
+"Extra"
+
+# checking the type of number
+
+n = type(10)
+print(n)
+m = type(20.3)
+print(m)
+ 
+ 
+"Thing to have in mind"
+
+# "10"+5 get error string + num not gone work
+# why to make work  int("10") + 5
+
+
