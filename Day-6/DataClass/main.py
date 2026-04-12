@@ -11,12 +11,13 @@ print(s1)
 
 '''
 
-        🔹 What Dataclass Automatically Gives You
+🔹 What Dataclass Automatically Gives You
 
 When you use @dataclass, Python automatically creates:
 
 __init__() → constructor
 __repr__() → print object nicely
 __eq__() → compare objects
+
 
 '''
